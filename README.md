@@ -31,15 +31,7 @@ You will be integrating with an existing API. Here are the details of the endpoi
    - `value`: A string representing the value of the payout.
    - `username`: A string representing the username associated with the payout.
 
-2. **Search Endpoint**
-
-   **Endpoint:** `https://theseus-staging.lithium.ventures/api/v1/analytics/tech-test/search?query=SEARCH_TERM`
-
-   **Method:** GET
-
-   **Description:** This endpoint allows for searching payouts by username. Implement a functionality that facilitates user search with a keen focus on optimizing the user experience whilst considering performance.
-
-   Both endpoints also returns a metadata object containing the following fields:
+    This endpoint also includes the following metadata:
 
    `"metadata": {"page": number, "limit": number, "totalCount": number}`
 
@@ -47,6 +39,15 @@ You will be integrating with an existing API. Here are the details of the endpoi
 
    page: The page number to retrieve.
    limit: The number of payouts to retrieve per page.
+
+3. **Search Endpoint**
+
+   **Endpoint:** `https://theseus-staging.lithium.ventures/api/v1/analytics/tech-test/search?query=SEARCH_TERM`
+
+   **Method:** GET
+
+   **Description:** This endpoint allows for searching payouts by username. Implement a functionality that facilitates user search with a keen focus on optimizing the user experience whilst considering performance.
+
 
 ## Evaluation Criteria
 
